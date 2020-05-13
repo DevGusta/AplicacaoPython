@@ -1,3 +1,3 @@
 # aplicacaoPython
-Aplicação de estudos em python
-Utilização de loops, condicionais e variáveis na validação e geração de CPFs 
+Aplicação de estudos em Python.
+Utilização de conhecimento em algoritomos. 
