@@ -3,7 +3,7 @@ Criação de um sistema de perguntas e respostas utilizando dicionários.
 """
 
 
-perguntas = {  # Dicionário com as perguntas, alternativas de respostas e a resposta correta.
+perguntas = {  
     'Pergunta 1': {
         'pergunta': 'Quanto é 2 + 2?',
         'respostas': {'a': '1', 'b': '4', 'c': '5'},
@@ -30,14 +30,14 @@ perguntas = {  # Dicionário com as perguntas, alternativas de respostas e a res
         'reposta_certa': 'c',
     },
 }
-respostas_certas = 0  # Variável para acumular as respostas corretas.
-for pk, pv in perguntas.items():  # Laço para as perguntas.
+respostas_certas = 0  
+for pk, pv in perguntas.items(): 
     print(f'{pk}: {pv["pergunta"]}')
 
-    for rk, rv in pv['respostas']. items():  # Laço para as alternativas.
+    for rk, rv in pv['respostas']. items():
         print(f'[{rk}]: {rv}')
 
-    resposta_usuario = input("Digite sua resposta:")  # Resposta do usuário.
+    resposta_usuario = input("Digite sua resposta:")  
     if resposta_usuario == pv['reposta_certa']:
         print('Você acertou.')
         respostas_certas += 1
@@ -45,7 +45,7 @@ for pk, pv in perguntas.items():  # Laço para as perguntas.
         print('Errou.')
     print()
 qtd_perguntas = len(perguntas)
-porcentagem_acertos = respostas_certas / qtd_perguntas * 100  # Porcetagem de acertos.
+porcentagem_acertos = respostas_certas / qtd_perguntas * 100  
 
 print(f'Você acertou {respostas_certas} pergunta(s).')
 print(f'Você acertou {porcentagem_acertos}% das perguntas.')
