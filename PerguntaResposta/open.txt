@@ -1,0 +1,1 @@
+Sistema de Perguntas e respostas feito com o uso de dicionários.
