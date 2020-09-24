@@ -1,4 +1,3 @@
-"""
 Faça uma lista de tarefas com as seguintes opções:
     adicionar tarefa
     listar tarefas
@@ -8,4 +7,3 @@ Faça uma lista de tarefas com as seguintes opções:
     ['Tarefa 1'] <- Desfazer
     ['Tarefa 1', 'Tarefa 2'] <- Refazer
     input <- Nova tarefa
-"""
